@@ -4,10 +4,9 @@
 #
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
+
 from scrapy.exceptions import DropItem
-from scrapy.conf import settings
-from scrapy.exceptions import DropItem
-from scrapy import log
+
 import logging
 import pymongo
 
@@ -52,5 +51,5 @@ class MongoPipeline(object):
     def process_item(self, item, spider):
         ## how to handle each post
         self.db[self.collection_name].insert(dict(item))
-        logging.debug("App added to MongoDB")
+        logging.debug("App added to DataBase")
         return item
