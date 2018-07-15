@@ -18,14 +18,12 @@ NEWSPIDER_MODULE = 'scraping.spiders'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 USER_AGENT = 'Rami Bahrouni (+https://bitbucket.org/rio05/g_play_scraper)'
 ITEM_PIPELINES = {
-    'scraping.pipelines.GPlayPipeline': 300,
-    'scraping.pipelines.MongoDBPipeline': 400,
+    'scraping.pipelines.GPlayPipeline': 400,
+    'scraping.pipelines.MongoPipeline': 300,
 }
+MONGO_URI = 'mongodb://root:20254641root@ds018308.mlab.com:18308/gplayapps'
+MONGO_DATABASE = 'gplayapps'
 
-MONGODB_SERVER = "ds018308.mlab.com"
-MONGODB_PORT = 18308
-MONGODB_DB = "gplayapps"
-MONGODB_COLLECTION = "Contacts"
 REACTOR_THREADPOOL_MAXSIZE = 20
 # LOG_LEVEL = 'INFO'
 COOKIES_ENABLED = False
