@@ -16,7 +16,7 @@ NEWSPIDER_MODULE = 'scraping.spiders'
 FEED_FORMAT = 'csv'
 FEED_URI = 'Contacts.csv'
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-USER_AGENT = 'Rami Bahrouni (+https://bitbucket.org/rio05/)'
+USER_AGENT = 'Rami Bahrouni (+https://bitbucket.org/rio05/g_play_scraper)'
 ITEM_PIPELINES = {
     'scraping.pipelines.GPlayPipeline': 300,
 }
