@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4f390e15-8f95-4708-89f2-1a5d07fd2f26" name="Default" comment="adding project link">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/scraping.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/scraping.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Contacts.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/items.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scraping/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraping/pipelines.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,68 +16,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scraping/settings.py">
+      <file leaf-file-name="playcrawler.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scraping/spiders/playcrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="183">
-              <caret line="23" column="74" selection-start-line="23" selection-start-column="74" selection-end-line="23" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrapy.cfg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scrapy.cfg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pipelines.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scraping/pipelines.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+            <state relative-caret-position="238">
+              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
               <folding>
-                <element signature="e#193#231#0" expanded="true" />
+                <element signature="e#0#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="middlewares.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scraping/middlewares.py">
+      <file leaf-file-name="angel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../companies/companies/spiders/angel.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1904">
-              <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+            <state relative-caret-position="187">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="items.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scraping/items.py">
+      <file leaf-file-name="splash.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/spiders/splash.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="runtime.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/runtime.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="12" selection-start-column="12" selection-end-column="12" />
+            <state relative-caret-position="289">
+              <caret line="27" column="76" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -97,6 +61,8 @@
       <find>su</find>
       <find>face</find>
       <find>card no-rationale square-cover apps small</find>
+      <find>select</find>
+      <find>./</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -129,6 +95,8 @@
         <option value="$PROJECT_DIR$/scraping/settings.py" />
         <option value="$PROJECT_DIR$/scraping/pipelines.py" />
         <option value="$PROJECT_DIR$/scraping/items.py" />
+        <option value="$USER_HOME$/Desktop/scrape_angellist1-master/angellist/settings.py" />
+        <option value="$USER_HOME$/Desktop/scrape_angellist1-master/angellist/spiders/AngelSpider.py" />
       </list>
     </option>
   </component>
@@ -149,12 +117,18 @@
           <expand>
             <path>
               <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
+              <item name="splashtest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
-              <item name="scraping" type="462c0819:PsiDirectoryNode" />
+              <item name="splashtest" type="462c0819:PsiDirectoryNode" />
+              <item name="splashtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="scraping" type="b2602c69:ProjectViewProjectNode" />
+              <item name="splashtest" type="462c0819:PsiDirectoryNode" />
+              <item name="splashtest" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -163,7 +137,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../companies" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -273,34 +247,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/spiders/splash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/spiders/Scrape.py" />
-    <entry file="file://$USER_HOME$/Desktop/Scrape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/spiders/splash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="188" selection-start-line="14" selection-start-column="188" selection-end-line="14" selection-end-column="188" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../splashtest/Contacts.csv" />
-    <entry file="file://$PROJECT_DIR$/../splashtest/i" />
-    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/settings.py" />
-    <entry file="file://$USER_HOME$/Desktop/Scrape.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/scraping/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -363,13 +309,6 @@
     <entry file="file://$USER_HOME$/Desktop/playstore-crawler-master/play_store/spiders/spider.py" />
     <entry file="file://$USER_HOME$/Desktop/playstore-crawler-master/play_store/items.py" />
     <entry file="file://$USER_HOME$/Desktop/playstore-crawler-master/play_store/settings.py" />
-    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/spiders/splash.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="27" column="54" selection-start-line="27" selection-start-column="54" selection-end-line="27" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/Scrape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -381,14 +320,24 @@
     <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/settings.py" />
     <entry file="file://$PROJECT_DIR$/scraping/spiders/Scrape.py" />
     <entry file="file://$PROJECT_DIR$/dbs/default.db" />
-    <entry file="file://$PROJECT_DIR$/scraping/spiders/playcrawler.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Contacts.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/logs/default/apps/4ee13aa1881e11e88193e4d53d17db44.log" />
     <entry file="file://$PROJECT_DIR$/setup.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5844.9174/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -403,13 +352,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa5844.9174/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/scraping/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1904">
+          <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#193#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/scrape_angellist1-master/crawl.log">
+      <provider selected="true" editor-type-id="LogFileEditorProvider">
+        <state relative-caret-position="-6064" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/scrape_angellist1-master/angellist/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="116" selection-start-line="14" selection-start-column="116" selection-end-line="14" selection-end-column="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/scrape_angellist1-master/angellist/pipelines.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$USER_HOME$/Desktop/scrape_angellist1-master/angelStartup.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/scrape_angellist1-master/angellist/spiders/AngelSpider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        <state relative-caret-position="391">
+          <caret line="28" column="38" lean-forward="true" selection-start-line="28" selection-start-column="38" selection-end-line="28" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -427,27 +418,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/pipelines.py">
+    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scraping/spiders/playcrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        <state relative-caret-position="238">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
           <folding>
-            <element signature="e#193#231#0" expanded="true" />
+            <element signature="e#0#27#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/middlewares.py">
+    <entry file="file://$PROJECT_DIR$/../companies/companies/spiders/angel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="113" column="35" lean-forward="true" selection-start-line="113" selection-start-column="35" selection-end-line="113" selection-end-column="35" />
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scraping/items.py">
+    <entry file="file://$PROJECT_DIR$/../splashtest/splashtest/spiders/splash.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="289">
+          <caret line="27" column="76" lean-forward="true" selection-start-line="25" selection-start-column="8" selection-end-line="27" selection-end-column="76" />
         </state>
       </provider>
     </entry>
