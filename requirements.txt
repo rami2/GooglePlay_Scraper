@@ -1,5 +1,2 @@
-psycopg2
 pymongo
 scrapy
-scrapyd
-scrapy-heroku
