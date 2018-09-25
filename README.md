@@ -1,0 +1,1 @@
+This is scrapy project for scraping apps infos in playstore.

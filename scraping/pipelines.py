@@ -13,7 +13,7 @@ import pymongo
 class GPlayPipeline(object):
     def __init__(self):
         self.ids_seen = set()
-
+    #this def for dropping duplication
     def process_item(self, item, spider):
         if item['App_name'] in self.ids_seen:
             raise DropItem("Duplicate item found: %s" % item)
